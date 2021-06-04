@@ -1,0 +1,11 @@
+circle.scatterPoint {
+    stroke: #e947d3;
+    stroke-width: 5;
+    fill: white;
+}
+
+.plotAxis {
+    font-size: 50;
+    font-family:'Trebuchet MS';
+    color: grey;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Attempting to build a decent Scatterplot</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/plot.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js" integrity="sha512-rKFvwjvE4liWPlFnvH4ZhRDfNZ9FOpdkD/BU5gAIA3VS3vOQrQ5BjKgbO3kxebKhHdHcNUHLqxQYSoxee9UwgA==" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <h1 id="plotTitle">Scatterplot Attempt</h1>
+        </div>
+        <div id="sidebar">
+            <button class="button" type="button" name="export", onclick="downloadSVG()">Download .svg</button>
+        </div>
+        <div id="content">
+            <svg id="scatterPlot" height="400" width="650">
+            </svg>
+        </div>
+        <div id="footer">
+        </div>
+    </div>
+    <script src="scatter.js"></script>
+</body>
+
+</html>

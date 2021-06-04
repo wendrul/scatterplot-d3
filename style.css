@@ -1,0 +1,52 @@
+h1 {
+    color: #ffffff;
+    font-family: 'Raleway';
+    font-weight: normal;
+    font-size: 1.75em;
+    letter-spacing: .2em;
+    line-height: 1.1em;
+    margin: 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#container {
+    width: 800px;
+}
+
+#header {
+    width: 800px;
+    height: 50px;
+    padding: 5px;
+    background: #83ca53;
+}
+
+#sidebar {
+    height: 400px;
+    width: 150px;
+    background: #83ca53;
+    float: left;
+}
+
+#content {
+    background-color: #ffffff;
+    height: 400px;
+    width: 650px;
+    float: left;
+}
+
+#footer {
+    width: 800px;
+    height: 50px;
+    background: #83ca53;
+    float: left;
+}
+
+.d3-tip {
+    font-family: 'Raleway';
+    line-height: 1;
+    padding: 1px;
+    background: transparent;
+    color: #000;
+    border-radius: 2px;
+}
